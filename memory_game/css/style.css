@@ -49,6 +49,14 @@ a{
 	margin: 0px 20px;
 }
 
+nav a{
+	border-bottom: 2px solid transparent;
+}
+
+nav a:hover { 
+	border-color: white;
+ }
+
 p{
 	font-family: "Droid Serif", sans-sarif;
 	line-height: 26px;
@@ -57,4 +65,40 @@ p{
 
 img{
 	margin: 40px 8px 0px 8px;
+}
+
+footer{
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0d2c40;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+footer p {
+	font-family: Raleway, sans-sarif;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.name{
+	color: #f15b31;
+	font-weight: 700;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
